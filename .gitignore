@@ -1,0 +1,9 @@
+.idea
+.venv
+before
+__pycache__
+allure-results
+allure-report
+
+
+
