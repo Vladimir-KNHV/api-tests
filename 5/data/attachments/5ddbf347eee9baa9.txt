@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE4VDIxOjIyOjA0Ljc0NjA3MyIsInVzZXJfaWQiOiI4MWNkYzYzMy1jZTkzLTQ4ZmQtOTY0ZC01Y2E1MWY2NTVjOTEifQ.0wWHcqK-ZK1nesdq-VsXW4C2liry1GAYhAEXAbE6lCA' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Organization skin ahead hospital.","maxScore":83,"minScore":8,"description":"Man among goal care. Candidate among condition wall.\nAway science that do church pass. Eat trouble short commercial.\nRed paper game main all data.","estimatedTime":"9 weeks","previewFileId":"4248d410-655a-441e-b630-38288ca8fe8c","createdByUserId":"81cdc633-ce93-48fd-964d-5ca51f655c91"}'

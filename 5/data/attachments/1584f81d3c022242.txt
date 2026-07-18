@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE4VDIxOjIyOjA4LjM0ODg0NyIsInVzZXJfaWQiOiI5ZGIxYmRmNC0zNGQxLTQyYTUtOTE1Ni0yYjJhY2ZjNmExNDUifQ.Bx5dzxgJ69NNe-jKnYrPBE-qaiVjf4S7Ao1JeD9FAns' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front pressure catch ever bit detail marriage.","maxScore":80,"minScore":11,"description":"Little law population. Well happy attention summer. Marriage painting century bed.","estimatedTime":"5 weeks","previewFileId":"ab9f6746-2aaf-42c8-b4f3-af0d77eec69a","createdByUserId":"9db1bdf4-34d1-42a5-9156-2b2acfc6a145"}'

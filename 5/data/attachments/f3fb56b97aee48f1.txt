@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE4VDIxOjIyOjA3LjEzOTUzNSIsInVzZXJfaWQiOiJhM2VmOWQzOS1iMzU5LTQ2MzQtOGQ4Yy1iMDZlNjcwN2Y2YTUifQ.J8NcYRb5Vd9JHfnydG2hPZMId1Mwhi9klTBC7qpG2Lk' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discuss college become ever situation alone.","maxScore":70,"minScore":8,"description":"Author stage school young. Message four nature start onto. Build suggest read hear impact television market.\nFoot student statement board. Piece condition response edge large husband half.","estimatedTime":"10 weeks","previewFileId":"6ed5d035-088d-411d-a7ba-0384d2718886","createdByUserId":"a3ef9d39-b359-4634-8d8c-b06e6707f6a5"}'
