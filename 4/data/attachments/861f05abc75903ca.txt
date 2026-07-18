@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE4VDIwOjI5OjIwLjg1NTIyNCIsInVzZXJfaWQiOiI2MGFhYmQxMS1kZjI1LTQ3YWEtYWQ3ZC00ZGJlZTU3ZGRlMWUifQ.AjbexpwhSiIMK8AAbburIIx75VfVrcLbik8TjDyczKo' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year consumer inside.","courseId":"b58425c3-efb8-480c-866b-1f9a7c809938","maxScore":85,"minScore":13,"orderIndex":36,"description":"Lay us benefit last century dog goal. Box still could third star care.\nLittle position state series list body own. Language million kitchen a rise player whatever pay.","estimatedTime":"2 weeks"}'
