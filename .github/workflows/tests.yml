@@ -56,9 +56,32 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
+      # Загрузка папки allure-results как артефакт джобы
+      - name: Upload allure-results artifact
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: allure-results
+          path: allure-results
+
+  # вторая джоба с публикацией репорта
+  publish-report:
+    runs-on: ubuntu-latest
+    needs: run-tests
+    if: always()
+
+    steps:
+
+      # скачиваем артефакт из предыдущей джобы
+      - name: Download allure-results artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: allure-results
+          path: allure-results
+
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
-        uses: actions/checkout@v7  # Опять клонируем репозиторий, чтобы получить историю отчётов
+        uses: actions/checkout@v7  # Клонируем ветку gh-pages, чтобы получить предыдущий Allure отчет и history
         if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
         continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
         with:
