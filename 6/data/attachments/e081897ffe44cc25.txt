@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU0OjQ1LjU4OTUwOCIsInVzZXJfaWQiOiI0MDRjM2ZkOC05OTE0LTQ3YzUtYWI3MS1kOTI5OTVjYTBhMTMifQ.SVb26d3-s8ghEgdlH1vR-gk2X4jWpNO1IhturCItcgY' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gun his mouth owner.","courseId":"c7fb3605-8905-4756-be0d-cf9b6fe5d3d8","maxScore":62,"minScore":7,"orderIndex":26,"description":"Then green ball. Accept age work key. Building very act crime than draw cause style.\nWhole partner page sell. South mean they. Year add price best.","estimatedTime":"3 weeks"}'

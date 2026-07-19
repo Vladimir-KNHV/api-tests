@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/exercises/17df77de-f066-4e31-9810-f5ded93db4b9' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU0OjQ1LjU4OTUwOCIsInVzZXJfaWQiOiI0MDRjM2ZkOC05OTE0LTQ3YzUtYWI3MS1kOTI5OTVjYTBhMTMifQ.SVb26d3-s8ghEgdlH1vR-gk2X4jWpNO1IhturCItcgY' \
+  -H 'content-length: 282' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Like car campaign campaign feel fact.","maxScore":68,"minScore":24,"orderIndex":4,"description":"Watch say different time significant situation. Learn employee base religious pretty. Occur answer understand company spring reach message officer.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU0OjQ3LjU3MDc5OCIsInVzZXJfaWQiOiIyMWE5YTU3ZC05OGQ1LTRmNDEtODY1Yy03Y2Y1YmJkMDQyZGQifQ.3kCAU7K-fMDXGr4wkbiEOy51stU3YuL-IQIBHjE8JRU' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Order face can house free provide baby.","courseId":"34ed01da-9133-4800-a99b-b77624dced0c","maxScore":88,"minScore":2,"orderIndex":91,"description":"Training top old already. Fish thus industry few. Candidate successful give movement nature rich year.","estimatedTime":"8 weeks"}'

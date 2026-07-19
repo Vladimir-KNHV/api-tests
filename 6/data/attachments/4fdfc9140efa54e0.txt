@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU0OjQ1LjU4OTUwOCIsInVzZXJfaWQiOiI0MDRjM2ZkOC05OTE0LTQ3YzUtYWI3MS1kOTI5OTVjYTBhMTMifQ.SVb26d3-s8ghEgdlH1vR-gk2X4jWpNO1IhturCItcgY' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then white future fight.","maxScore":73,"minScore":4,"description":"Teacher show late necessary source. Explain never board area get dark or will.\nBest piece may ever. Everyone key both open else site. Middle raise miss per interest.","estimatedTime":"1 weeks","previewFileId":"b211320a-4e41-47c6-82a1-66fdbe1f935a","createdByUserId":"404c3fd8-9914-47c5-ab71-d92995ca0a13"}'

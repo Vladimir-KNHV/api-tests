@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU0OjQ2LjkyNzM2NSIsInVzZXJfaWQiOiIwMTBiOGVmMi1kMGE5LTQ4ZjgtYjRlYS05NjYzZjc3OGRhYjYifQ.VvkrhC2MRKADJt2HX80ceJKqua6zM8hbWKmDn7OO8FY' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Over fine behavior investment together.","maxScore":89,"minScore":3,"description":"Market that social room. High throw into stand they.","estimatedTime":"3 weeks","previewFileId":"d7b0f292-a8d6-4f8d-a5d7-779b47c63dbb","createdByUserId":"010b8ef2-d0a9-48f8-b4ea-9663f778dab6"}'

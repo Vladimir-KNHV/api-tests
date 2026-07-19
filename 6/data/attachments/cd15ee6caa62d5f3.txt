@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/courses/44835234-7fc0-4ecb-aeeb-5bc2332377f2' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU0OjQzLjU5ODc2OSIsInVzZXJfaWQiOiJhZWEyZDVlZi04N2Y4LTRiMTQtYTVkOC05MDhmN2M4OTM5NmEifQ.SnCDkxOV9DMuiA6BLC42CeCeyW5JiQOCbj6fV3cCKY0' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put player local finally same within.","maxScore":67,"minScore":25,"description":"Anything oil maybe garden else recent. Learn type to nation fish.\nProgram sport teach not. First five two before voice. Among story appear choose.","estimatedTime":"1 weeks"}'

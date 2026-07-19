@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU0OjQ2LjIyOTY2NSIsInVzZXJfaWQiOiJlNjEwYzUxOS04ZDAyLTQyOWQtYWVmZC0zZWUyZDg4ODRjMGMifQ.uVqOWFndJsBCaO43QqDlO6JI3953PkGA2xnh2JONLCs' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Social detail civil foot none get piece.","courseId":"3bcc3d85-5b91-4230-95fa-0afb2587e9aa","maxScore":88,"minScore":11,"orderIndex":73,"description":"Reality five player. Score organization thing land use prepare. Student accept will evening.\nChoice until fight recently woman model. Wear field trip according.","estimatedTime":"5 weeks"}'
