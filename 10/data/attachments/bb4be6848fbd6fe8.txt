@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA4OjAyOjAwLjYyODM2NiIsInVzZXJfaWQiOiJiMzUyNGZhYy0wN2VlLTQyMjUtYTEzYy02NjMxY2QwZDcxMmIifQ.WwebrnR41k0ahcTLAMnNOv1j5HQWUz3xgshqKG_oyy4' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lot someone vote present.","maxScore":61,"minScore":1,"description":"Fear receive side mean few hit individual capital. Floor understand yard.\nStand phone ball teach.","estimatedTime":"8 weeks","previewFileId":"d04651b5-bc1f-492c-ba5e-ebbd6a1ddd63","createdByUserId":"b3524fac-07ee-4225-a13c-6631cd0d712b"}'

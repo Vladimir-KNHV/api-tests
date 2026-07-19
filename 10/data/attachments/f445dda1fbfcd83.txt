@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA4OjAyOjAwLjA1MTgxNCIsInVzZXJfaWQiOiJkNWI5OGYyOS1lODIyLTRhODUtOGQxYS1kYzhjMmJiOGUwMmMifQ.7rQcq91RkpWYieMJ3O5JSncKhGS8edo9Uizql1EggsQ' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional laugh media north movie.","maxScore":77,"minScore":2,"description":"Throw team suggest area. Information thousand us word easy. Enter think reduce model explain.\nWhether draw situation.","estimatedTime":"10 weeks","previewFileId":"96063e03-4733-4ef2-bbd6-fdafd9d6402b","createdByUserId":"d5b98f29-e822-4a85-8d1a-dc8c2bb8e02c"}'

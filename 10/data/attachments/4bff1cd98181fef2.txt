@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/exercises/bf008c44-d28e-4fcd-97e1-d84eeaf8a0f4' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA4OjAyOjAwLjA1MTgxNCIsInVzZXJfaWQiOiJkNWI5OGYyOS1lODIyLTRhODUtOGQxYS1kYzhjMmJiOGUwMmMifQ.7rQcq91RkpWYieMJ3O5JSncKhGS8edo9Uizql1EggsQ' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious fact charge smile market while.","maxScore":81,"minScore":11,"orderIndex":85,"description":"Decide about so night like. Front price shake state. Look official pass fly although.\nBy certainly require stay point. Prove position myself up almost yard.","estimatedTime":"4 weeks"}'

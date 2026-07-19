@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA4OjAxOjU5LjQ2MzU5MyIsInVzZXJfaWQiOiJiNGE5NzY2Ny04N2IyLTQ5NjQtYmE4OS02YzA0ZGZkN2VkMWQifQ.7SvLcUkAdk3bjFfZ9Qsk4uCW48ib7MOiII8m3usdnwk' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Believe across professional consider artist year scientist blood.","courseId":"87864fe7-5406-491c-90ff-4d6f9e593768","maxScore":78,"minScore":24,"orderIndex":95,"description":"Well firm situation law song. Magazine now nature. Man place listen break.\nEnvironment official woman future out case.","estimatedTime":"10 weeks"}'

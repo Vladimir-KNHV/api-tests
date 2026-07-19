@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA4OjAxOjU4LjI1Njc0OSIsInVzZXJfaWQiOiI2NzNiMmY5MS03ZjYwLTQ3Y2QtYmE2Yi0zNDVjM2E3Zjc5NzIifQ.T2O8QITLozbn-MaErtNveHKM-eoHaS-68ZHACHR1S6c' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly choice may sign.","maxScore":61,"minScore":28,"description":"Investment forward late look hot including page. Leave factor skin. Single card alone official foot forget.","estimatedTime":"2 weeks","previewFileId":"be99cb83-8ead-4762-87d9-2b13234ae795","createdByUserId":"673b2f91-7f60-47cd-ba6b-345c3a7f7972"}'
