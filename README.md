@@ -3,6 +3,12 @@
 Проект с автоматизированными тестами для [API Course Test Server](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course).  
 Тесты написаны с использованием **Python**, **Pytest**, **Allure**, **Pydantic**, **Faker** и **HTTPX**.  
 
+Автотесты написаны на **Python** с использованием:
+- **Pytest** — запуск и управление тестами;
+- **HTTPX** — выполнение HTTP-запросов;
+- **Pydantic** — проверка и валидация данных;
+- **Faker** — генерация тестовых данных;
+- **Allure** — формирование тестовых отчетов.
 
 ## Обзор проекта
 
