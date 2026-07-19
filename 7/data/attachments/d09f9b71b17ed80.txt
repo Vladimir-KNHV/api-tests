@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU2OjAxLjI2MTQ2NiIsInVzZXJfaWQiOiJkYmQzMTZiNi0zMWIzLTRmOWUtOGZmZi1mYThjNmU1ZDNmMjgifQ.EZxren9APptAgsGot82aLW4014At-fD_pgzB5jKcYnE' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Few police difficult property.","maxScore":98,"minScore":12,"description":"Crime effect also military. Hot theory world ground send second. Study sure wait start.\nMinute good attorney value ever explain. Large get red reason suggest traditional send.","estimatedTime":"1 weeks","previewFileId":"bf8fb1e8-8d44-4166-b474-ee84b4a88df3","createdByUserId":"dbd316b6-31b3-4f9e-8fff-fa8c6e5d3f28"}'

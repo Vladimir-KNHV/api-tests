@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/exercises/806a4c08-3bee-49ac-834a-c27129bdd154' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU1OjU4Ljg0NDgzNSIsInVzZXJfaWQiOiJiODI0NDQyYi03MDJmLTRiYWMtODgwOC1lMGRlNTBhYjVkMWIifQ.8NZlMjG6B9CtuaBY9f277fjpg3knIJPf9tbJPh1-IqM' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Say just individual up better two from.","maxScore":67,"minScore":15,"orderIndex":40,"description":"Late everybody who admit special recent. Southern so tonight report top machine player.\nDifficult site method really feeling. However leader student time nation. Push rise black how instead.","estimatedTime":"4 weeks"}'
