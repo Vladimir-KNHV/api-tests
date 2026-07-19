@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/exercises/ea0a6167-f92e-4ff6-9234-304c55bc5f3a' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU2OjUzLjY1ODk1MiIsInVzZXJfaWQiOiJiMjY4MzlkMy1kZjc5LTQxNmItYmRiMi0xNjQ4N2UyYWM1ZDMifQ.piNIbParwy7bnX8E9gJyqncHgTETvlwLQtbNGvSyV-4' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key hot much.","maxScore":61,"minScore":12,"orderIndex":35,"description":"Several crime special less herself call. Discussion enough hospital everyone throughout development. Environmental decade next bit.","estimatedTime":"7 weeks"}'

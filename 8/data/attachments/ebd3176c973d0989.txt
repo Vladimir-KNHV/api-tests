@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU2OjU0LjkzNzE3OCIsInVzZXJfaWQiOiI0MjlmY2M2ZC01ZWVmLTRjMDgtYTNlZi02OGI3Nzk1NGRiYjgifQ.C0Og_m2FJDBUTrdfdMrCm4mnO90BKnBdGjBHSOHFkjI' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring anyone night professor treatment dog note expect.","maxScore":100,"minScore":22,"description":"Always decide scientist put. Kid arm who perform. Night two change contain arrive.","estimatedTime":"3 weeks","previewFileId":"362106cc-4167-4889-8d20-f6b27846bccf","createdByUserId":"429fcc6d-5eef-4c08-a3ef-68b77954dbb8"}'

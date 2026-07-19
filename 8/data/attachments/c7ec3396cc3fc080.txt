@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU2OjU0LjMzNzM1MiIsInVzZXJfaWQiOiIzM2ZjNzMwMC02MDExLTQwMjktOTlhOS0yZGE3YTEyZWU4YjYifQ.jFg-fJjVva_Brf7yA_bhVLdB6Dp4aebTzMA7QrzJdOo' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Up nor Mr year speak.","courseId":"65576da5-712f-4b18-bfc5-374975ba6932","maxScore":55,"minScore":22,"orderIndex":63,"description":"Worker movement available conference discussion. Difficult minute since himself bar nation care social. Teacher child stage one mouth close.","estimatedTime":"9 weeks"}'

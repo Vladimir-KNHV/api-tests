@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU2OjU0LjkzNzE3OCIsInVzZXJfaWQiOiI0MjlmY2M2ZC01ZWVmLTRjMDgtYTNlZi02OGI3Nzk1NGRiYjgifQ.C0Og_m2FJDBUTrdfdMrCm4mnO90BKnBdGjBHSOHFkjI' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Raise fight partner look arm everything.","courseId":"77e87e39-a644-4c9b-a631-8cedd4a06ce9","maxScore":59,"minScore":22,"orderIndex":43,"description":"Although teacher system spend. Help everybody glass military couple cold.","estimatedTime":"4 weeks"}'

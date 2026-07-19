@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU2OjUxLjg5MTkxNyIsInVzZXJfaWQiOiJiODJhMTgxMC02MDJiLTQ0YjgtOWZmZi1iYzgzMTdmZmI5YWIifQ.3RBmb8fhEKI0ysxdXC2JIZbfTcjA2PZeUE9wM6oNggQ' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Close which way expect big require attorney true.","maxScore":62,"minScore":29,"description":"While action fish food capital. Without itself sign. Court generation ball return character policy career.","estimatedTime":"2 weeks","previewFileId":"9e35daaa-9f1a-4a79-a39a-49f6e1ab604e","createdByUserId":"b82a1810-602b-44b8-9fff-bc8317ffb9ab"}'

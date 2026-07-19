@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE5VDA3OjU2OjU0LjMzNzM1MiIsInVzZXJfaWQiOiIzM2ZjNzMwMC02MDExLTQwMjktOTlhOS0yZGE3YTEyZWU4YjYifQ.jFg-fJjVva_Brf7yA_bhVLdB6Dp4aebTzMA7QrzJdOo' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Price author lead state.","maxScore":81,"minScore":2,"description":"Doctor live exist theory official. Picture television eight interest decide study with page. Vote evidence method.","estimatedTime":"9 weeks","previewFileId":"16c60077-9fc2-4366-b5e5-94d4a1528187","createdByUserId":"33fc7300-6011-4029-99a9-2da7a12ee8b6"}'
