@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIwVDExOjQ5OjIzLjM5ODY2MSIsInVzZXJfaWQiOiJlMTUxM2Q2ZC01NzVmLTQzN2YtOTllOS0zMGQxZTAzZWFkOTAifQ.oxObYNgAZQwqTHghDUPO5BOvNyThFX5PyNw3eBYAsto' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century want plant free heart determine red.","maxScore":64,"minScore":11,"description":"Change still cost relationship. Your standard term military maintain. Their degree stand bring.","estimatedTime":"7 weeks","previewFileId":"c0e5111d-3ff9-48bb-b11a-8464f6430c3c","createdByUserId":"e1513d6d-575f-437f-99e9-30d1e03ead90"}'

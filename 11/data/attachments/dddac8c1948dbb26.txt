@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIwVDExOjQ5OjIxLjc2MTU2NyIsInVzZXJfaWQiOiIxM2M0OGU2Yi0zMTcwLTQzOTYtYWVhYi02YzYxZGU1NjkwMGEifQ.hZFh-WZ9ZlUJdw6Ehqohp4B_1ZityMMqclaTYktQ3wc' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Method cup hundred Congress sit.","courseId":"a39595b0-0ee9-4609-90c6-6eeb3be5c63f","maxScore":65,"minScore":9,"orderIndex":39,"description":"Price color least appear whatever purpose south. Catch worker movement.\nAdult series defense window activity. Media win need news receive. Number simple ahead sign recent possible tax.","estimatedTime":"9 weeks"}'

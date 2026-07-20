@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIwVDExOjQ5OjI0LjQzNjY3NSIsInVzZXJfaWQiOiIwMmUyNGQxMi0xNWYxLTRhYTMtYmYxOC1jNjRhOGE0ZDJkNDkifQ.KmglE2J8PRw0gRuiJhe9c3lmOM4Az6vR4N6i4Xqtn2o' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality five maintain small hospital throw contain.","maxScore":82,"minScore":5,"description":"Start most nation trip lot remain something. Detail scientist individual concern. Shoulder example measure our lot decade.\nKitchen receive these out risk every. Walk home kitchen.","estimatedTime":"6 weeks","previewFileId":"6aa717a9-eba0-44e6-8b2d-f2bebec8e84b","createdByUserId":"02e24d12-15f1-4aa3-bf18-c64a8a4d2d49"}'

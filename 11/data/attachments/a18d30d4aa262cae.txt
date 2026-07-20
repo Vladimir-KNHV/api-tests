@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/courses/9fbc08bc-6be1-44d4-85d9-c1ad5cf32b45' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIwVDExOjQ5OjIwLjEyODc5MSIsInVzZXJfaWQiOiIyMzkwYmIxZS02ZTlhLTQ3YTUtYjYxNi04ZGNlMzY4NDg5ZmMifQ.EH2MUCjp9hLo2gS6VmuhA4s-uLbi9RRyZyxCAa4Q4Cc' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Federal have although step prevent mission law.","maxScore":61,"minScore":11,"description":"System avoid trial hard. Bring hit year see reveal of.\nEvery example various. Name be main however teach.\nComputer benefit former order her. Half no social night relate ask.","estimatedTime":"3 weeks"}'

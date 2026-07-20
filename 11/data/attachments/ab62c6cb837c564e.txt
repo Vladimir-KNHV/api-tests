@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIwVDExOjQ5OjIwLjEyODc5MSIsInVzZXJfaWQiOiIyMzkwYmIxZS02ZTlhLTQ3YTUtYjYxNi04ZGNlMzY4NDg5ZmMifQ.EH2MUCjp9hLo2gS6VmuhA4s-uLbi9RRyZyxCAa4Q4Cc' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choice whom than major career society radio.","maxScore":90,"minScore":14,"description":"Tough certain law eye operation according. Activity production up agreement will.\nHotel many plant government voice along.","estimatedTime":"8 weeks","previewFileId":"08e0fb1e-87b6-4877-8981-c1ce0506a01a","createdByUserId":"2390bb1e-6e9a-47a5-b616-8dce368489fc"}'

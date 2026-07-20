@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIwVDExOjQ5OjIxLjc2MTU2NyIsInVzZXJfaWQiOiIxM2M0OGU2Yi0zMTcwLTQzOTYtYWVhYi02YzYxZGU1NjkwMGEifQ.hZFh-WZ9ZlUJdw6Ehqohp4B_1ZityMMqclaTYktQ3wc' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next discuss if poor data on.","maxScore":50,"minScore":19,"description":"Add hard option thing international allow. Win between none cover she artist member.\nSave health star whom power tax student. Almost image too.","estimatedTime":"2 weeks","previewFileId":"e5e643ab-6d78-4283-a5b8-192516c9516e","createdByUserId":"13c48e6b-3170-4396-aeab-6c61de56900a"}'
